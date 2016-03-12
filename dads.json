@@ -26,5 +26,12 @@
           "age": 58,
           "favoriteFood": "Unsalted Nuts",
           "hobby": "Geometry"
+      },
+      {
+          "id": 5,
+          "name": "Daniel Kaiser",
+          "age": 56,
+          "favoriteFood": "Chicken biscuits",
+          "hobby": "Ohio State Football"
       }
 ]
