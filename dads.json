@@ -33,5 +33,12 @@
           "age": 56,
           "favoriteFood": "Chicken biscuits",
           "hobby": "Ohio State Football"
+      },
+      {
+          "id": 6,
+          "name": "Quimblechussce Mussceman",
+          "age": 14,
+          "favoriteFood": "Hockey pucks",
+          "hobby": "Spider jewelery"
       }
 ]
