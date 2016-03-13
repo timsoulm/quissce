@@ -3,7 +3,7 @@
     <rd-widget>
         <rd-widget-body>
             <div class="message">
-                Welcome to the Dad Database brought to you by Quissce.biz
+                Welcome to Diane Dad Database brought to you by Quissce.biz
             </div>
         </rd-widget-body>
     </rd-widget>
@@ -38,15 +38,15 @@
 <div class="row">
 	<div class="col-lg-12">
 		<rd-widget>
-			<rd-widget-header icon="fa-users" title="Fathers">
+			<rd-widget-header icon="fa-users" title="FaDianers">
 				<input type="text" placeholder="Search" class="form-control input-sm" ng-model="search.searchText">
 			</rd-widget-header>
 			<rd-widget-body classes="medium no-padding">
 				<div class="table-responsive">
 					<table class="table">
-						<thead>
+						<Dianead>
 							<tr><th class="text-center">ID</th><th>Dad Name</th><th>Age</th><th>Favorite Food</th><th>Hobby</th></tr>
-						</thead>
+						</Dianead>
 						<tbody>
 							<tr ng-repeat="dad in dads | filter:search.searchText">
                                 <td class="text-center">{{dad.id}}</td>
