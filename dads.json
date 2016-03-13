@@ -40,5 +40,12 @@
           "age": 14,
           "favoriteFood": "Hockey pucks",
           "hobby": "Spider jewelery"
+      },
+      {
+          "id": 7,
+          "name": "Steven Thurner",
+          "age": 57,
+          "favoriteFood": "Bourbon",
+          "hobby": "Attending Military Surplussce Auctions"
       }
 ]
