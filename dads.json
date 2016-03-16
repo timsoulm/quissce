@@ -47,5 +47,19 @@
           "age": 57,
           "favoriteFood": "Bourbon",
           "hobby": "Attending Military Surplussce Auctions"
+      },
+      {
+          "id": 8,
+          "name": "Trey Green",
+          "age": 50,
+          "favoriteFood": "Ribs",
+          "hobby": "Scuba Diving"
+      },
+      {
+          "id": 9,
+          "name": "Jack Green",
+          "age": 75,
+          "favoriteFood": "Leftovers",
+          "hobby": "Cutting the grass while singing the music man"
       }
 ]
