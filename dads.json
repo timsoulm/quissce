@@ -61,5 +61,12 @@
           "age": 75,
           "favoriteFood": "Leftovers",
           "hobby": "Cutting the grass while singing the music man"
+      },
+      {
+          "id": 10,
+          "name": "Brondy Cale",
+          "age": 96,
+          "favoriteFood": "Frozen Eggs",
+          "hobby": "Filleting Guppies"
       }
 ]
