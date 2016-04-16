@@ -20,13 +20,14 @@
 				<div class="table-responsive">
 					<table class="table">
 						<thead>
-							<tr><th>Brand</th><th>Soup Type</th><th>Rating</th></tr>
+							<tr><th>Brand</th><th>Soup Type</th><th>Rating</th><th>Purchase Link</th></tr>
 						</thead>
 						<tbody>
 							<tr ng-repeat="review in soupReviews | filter:searchSoup.searchText">
                                 <td>{{review.brand}}</td>
                                 <td><a ng-click="setSoup(review)" href="#/reviewpage">{{review.soupType}}</a></td>
                                 <td>{{review.rating}}</td>
+                                <td><a href="{{review.amazonLink}}">Purchase</a></td>
                             </tr>
 						</tbody>
 					</table>
