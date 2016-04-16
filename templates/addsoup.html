@@ -1,0 +1,24 @@
+<div class="row">
+	<div class="col-lg-12">
+   		<rd-widget>
+   			<rd-widget-body>
+				<div class="message">
+					Enter your soup (Authenticated soup reviewers only)
+				</div>
+                <br>
+                <div class="message">
+                    <form>
+                        <table class="table">
+                        <tr><td>Soup Brand: <input name="brand" type="text" ng-model="soupEntry.brand" maxlength="200"></td></tr>
+                        <tr><td>Soup Type: <input name="soupType" type="text" ng-model="soupEntry.soupType" maxlength="200"></td></tr>
+                        <tr><td>Rating: <input name="rating" type="text" ng-model="soupEntry.rating" maxlength="200"></td></tr>
+                        <tr><td>Amazon Link: <input name="amazonLink" type="text" ng-model="soupEntry.amazonLink" maxlength="200"></td></tr>
+                        <tr><td>Please type up your review: <br><br><textarea name="review" rows="5" cols="100" ng-model="soupEntry.review"></textarea></td></tr>
+                        </table>
+                        <button type="button" ng-click="addSoup()">Submit Review</button>
+                    </form>
+                </div>
+   			</rd-widget-body>
+   		</rd-widget>
+	</div>
+</div>
