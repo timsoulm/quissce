@@ -23,7 +23,12 @@
   </script>
 </head>
 <body ng-controller="MasterCtrl">
-  <div id="page-wrapper" ng-class="{'open': toggle}" ng-cloak>
+  <div ng-show="badSoupReviewer">
+      YOU HAVE TRIED TO ENTER A SOUP REVIEW HOWEVER YOU ARE NOT A LISCENCED SOUP REVIEWER. TO BECOME A LISCENCED
+      SOUP REVIEWER PLEASE APPLY TO WORK FOR THE SOUP DIVISION OF QUISSCE.BIZ. IF YOU DO NOT DO THIS YOU WILL NEVER BE
+      ABLE TO SUBMIT A SOUP REVIEW.
+  </div>
+  <div id="page-wrapper" ng-class="{'open': toggle}" ng-cloak ng-hide="badSoupReviewer">
 
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
