@@ -45,11 +45,10 @@
 				<div class="table-responsive">
 					<table class="table">
 						<thead>
-							<tr><th class="text-center">ID</th><th>Dad Name</th><th>Age</th><th>Favorite Food</th><th>Hobby</th></tr>
+							<tr><th>Dad Name</th><th>Age</th><th>Favorite Food</th><th>Hobby</th></tr>
 						</thead>
 						<tbody>
 							<tr ng-repeat="dad in dads | filter:search.searchText">
-                                <td class="text-center">{{dad.id}}</td>
                                 <td>{{dad.name}}</td>
                                 <td>{{dad.age}}</td>
                                 <td>{{dad.favoriteFood}}</td>
